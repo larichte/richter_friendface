@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Friendface - Profile Page</title>
+        <meta name="author" content="Prof. Barnett">
+        <meta name="description" content="Adjust your profile settings and view friend requests, messages, and notifications on your Friendface profile page">
+
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- Google Fonts Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@500;700&display=swap" rel="stylesheet">
+
+        <!-- stylesheet -->
+        <!-- TO DO: Link to your stylesheet -->
+         <link rel="stylesheet" href="styles.css">
+
+        <!-- In case you don't know who Maurice Moss is and would like to: https://theitcrowd.fandom.com/wiki/Maurice_Moss -->
+    </head>
+
+    <body>
+        <header>
+            <a href="#" aria-label="Go to the Friendface homepage">
+                <img src="images/friendface-logo.png" alt="">
+            </a>
+            <h1>Profile Settings</h1>
+            <nav>
+                <ul>
+                    <li><a href="#info">Profile Info</a></li>
+                    <li><a href="#notify">Notifications</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="info">
+                <!-- side-by-side content -->
+                <h2>Profile Information</h2>
+                <div>
+                    <img src="images/maurice-moss.png" alt="morris moss has dark hair and eyes and wears glasses with dark frames" width="507" height="483">
+                    <dl>
+                        <dt>Name 
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+                                    <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+                                </svg>
+                            </a>
+                        </dt>
+                        <dd>Maurice Moss</dd>
+
+                        <dt>Birth Year
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+                                    <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+                                </svg>
+                            </a>
+                        </dt>
+                        <dd>1973</dd>
+
+                        <dt>Location
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+                                    <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+                                </svg>
+                            </a>
+                        </dt>
+                        <dd>London, England</dd>
+
+                        <dt>Employer
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+                                    <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+                                </svg>
+                            </a>
+                        </dt>
+                        <dd>Reynholm Industries</dd>
+
+                        <dt>Favorite Quote
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+                                    <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+                                </svg>
+                            </a>
+                        </dt>
+                        <dd><q>I want to go back to being weird. I like being weird. Weird's all I got. That, and my sweet style.</q></dd>
+                    </dl>
+                </div>
+            </section>
+
+            <section id="notify">
+                <h2>Notifications</h2>
+                <div>
+                    <section id="likes">
+                        <h3>Likes &amp; Comments</h3>
+                        <a href="#">
+                            <span>5</span>
+                            <svg width="135" height="116" version="1.1" viewBox="22.94 26.71 54.13 46.58" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m36.91 26.707c-3.582 0-7.1484 1.3672-9.8789 4.1133-5.4648 5.4922-5.457 14.383 0 19.875l22.062 22.219v0.003907c0.23438 0.23828 0.55859 0.37109 0.89453 0.37109 0.33594 0 0.66016-0.13281 0.89453-0.37109 7.3633-7.4023 14.715-14.797 22.082-22.199 5.4648-5.4922 5.4648-14.367 0-19.855-5.4648-5.4922-14.316-5.4922-19.777 0l-3.168 3.168-3.207-3.207c-2.7305-2.7461-6.3164-4.1133-9.8984-4.1133zm0 2.5c2.9258 0 5.8516 1.1172 8.1094 3.3867l4.0938 4.1133c0.23828 0.23828 0.55859 0.37109 0.89453 0.37109 0.33594 0 0.66016-0.13281 0.89453-0.37109l4.0742-4.0742c4.5117-4.5312 11.707-4.5312 16.215 0 4.5117 4.5312 4.5117 11.781 0 16.316-7.0625 7.0977-14.133 14.195-21.195 21.293l-21.195-21.312c-4.5078-4.5391-4.5117-11.801 0-16.336 2.2539-2.2656 5.1797-3.3867 8.1094-3.3867z"/>
+                            </svg> 
+                        </a>                   
+                    </section>
+
+                    <section id="messages">
+                        <h3>Messages</h3>
+                        <a href="#">
+                            <span>2</span>
+                            <svg version="1.1" viewBox="12.5 28.12 75 48.44" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m79.688 28.125h-59.375c-4.3125 0.003906-7.8086 3.5-7.8125 7.8125v32.812c0.003906 4.3125 3.5 7.8086 7.8125 7.8125h59.375c4.3125-0.003906 7.8086-3.5 7.8125-7.8125v-32.812c-0.003906-4.3125-3.5-7.8086-7.8125-7.8125zm4.6875 7.8125v32.812c-0.007812 0.44922-0.078125 0.89453-0.21484 1.3242l-21.297-17.902 21.215-17.824c0.19141 0.50781 0.29297 1.0469 0.29688 1.5898zm-4.6875-4.6875c0.84766 0.003906 1.6797 0.24219 2.4062 0.68359l-29.086 24.434c-1.7344 1.4766-4.2812 1.4766-6.0195 0l-29.082-24.43c0.72656-0.44531 1.5586-0.68359 2.4062-0.6875zm-63.848 38.824c-0.13672-0.42969-0.20703-0.875-0.21484-1.3242v-32.812c0.003906-0.54297 0.10547-1.082 0.29688-1.5898l21.215 17.812zm4.4727 3.3633c-0.94531 0-1.8633-0.28516-2.6406-0.82031l21.895-18.406 5.4102 4.5469c2.8984 2.457 7.1484 2.457 10.043 0l5.4141-4.5469 21.895 18.406c-0.77734 0.53516-1.6953 0.82031-2.6406 0.82031z"/>
+                            </svg>      
+                        </a>              
+                    </section>
+
+                    <section id="friends">
+                        <h3>Friend Requests</h3>
+                        <a href="#">
+                            <span>1</span>
+                            <svg version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="m44.207 44.117c-5.2656 0.019531-10.32-2.0586-14.047-5.7773-3.7227-3.7227-5.8125-8.7734-5.7969-14.039 0.011719-5.2656 2.1289-10.305 5.8711-14.008 3.6992-3.7148 8.7305-5.7969 13.973-5.7773 7.0664 0 13.594 3.7695 17.129 9.8906 3.5312 6.1172 3.5312 13.656 0 19.777-3.5352 6.1211-10.062 9.8906-17.129 9.8906zm0-36.617c-4.4531 0-8.7266 1.7656-11.883 4.9102-3.1562 3.1406-4.9375 7.4062-4.957 11.859-0.015626 4.4531 1.7305 8.7344 4.8633 11.902 3.1289 3.168 7.3867 4.9688 11.84 5.0039 4.4531 0.035157 8.7422-1.6953 11.922-4.8125 3.1797-3.1133 4.9961-7.3672 5.0508-11.82-0.007813-4.4766-1.7734-8.7773-4.9102-11.973-3.1406-3.1953-7.4023-5.0352-11.883-5.1289z"/>
+                                    <path d="m44.25 91.516c-14.012-0.11328-27.824-3.3164-40.457-9.3828-0.49219-0.22656-0.82031-0.70703-0.85156-1.25 0-18.602 18.516-33.676 41.266-33.676 10.512-0.15234 20.762 3.2812 29.059 9.7344 1.1445 0.91016 2.2266 1.8945 3.25 2.9414 0.55859 0.58984 0.53516 1.5195-0.050781 2.082-0.58984 0.55859-1.5234 0.53516-2.082-0.054688-0.92578-0.96484-1.9062-1.875-2.9414-2.7188-7.7891-6.0156-17.395-9.207-27.234-9.043-20.734 0-37.691 13.234-38.234 29.719 19.676 8.957 39.602 11 59.281 6.1016h-0.003906c0.77344-0.15625 1.5352 0.32031 1.7266 1.0898 0.1875 0.76562-0.26172 1.5469-1.0195 1.7656-7.0977 1.7852-14.387 2.6875-21.707 2.6914z"/>
+                                    <path d="m78.867 95.5c-4.8281 0.003906-9.4648-1.9102-12.879-5.3242-3.418-3.4141-5.3398-8.0469-5.3398-12.875-0.003907-4.832 1.9141-9.4648 5.332-12.879 3.4141-3.418 8.0469-5.3359 12.879-5.332 4.8281 0 9.4609 1.9219 12.875 5.3359 3.4141 3.418 5.3281 8.0547 5.3242 12.883-0.007813 4.8242-1.9258 9.4453-5.3359 12.855-3.4102 3.4102-8.0312 5.3281-12.855 5.3359zm0-33.457c-4.0508-0.003907-7.9336 1.6016-10.801 4.4648-2.8633 2.8594-4.4766 6.7422-4.4766 10.793-0.003906 4.0469 1.6016 7.9336 4.4648 10.797 2.8594 2.8633 6.7422 4.4727 10.793 4.4766 4.0508 0 7.9336-1.6055 10.797-4.4688s4.4727-6.7461 4.4727-10.797c-0.007813-4.043-1.6172-7.918-4.4727-10.781-2.8594-2.8594-6.7344-4.4727-10.777-4.4844z"/>
+                                    <path d="m78.867 86.676c-0.8125 0-1.4688-0.65625-1.4688-1.4688v-15.809c0-0.8125 0.65625-1.4727 1.4688-1.4727s1.4727 0.66016 1.4727 1.4727v15.809c0 0.39062-0.15625 0.76172-0.43359 1.0391-0.27344 0.27734-0.64844 0.42969-1.0391 0.42969z"/>
+                                    <path d="m86.766 78.781h-15.809c-0.8125 0-1.4727-0.66016-1.4727-1.4727s0.66016-1.4688 1.4727-1.4688h15.809c0.8125 0 1.4688 0.65625 1.4688 1.4688s-0.65625 1.4727-1.4688 1.4727z"/>
+                                    <path d="m78.867 95.5c-4.8281 0.003906-9.4648-1.9102-12.879-5.3242-3.418-3.4141-5.3398-8.0469-5.3398-12.875-0.003907-4.832 1.9141-9.4648 5.332-12.879 3.4141-3.418 8.0469-5.3359 12.879-5.332 4.8281 0 9.4609 1.9219 12.875 5.3359 3.4141 3.418 5.3281 8.0547 5.3242 12.883-0.007813 4.8242-1.9258 9.4453-5.3359 12.855-3.4102 3.4102-8.0312 5.3281-12.855 5.3359zm0-33.457c-4.0508-0.003907-7.9336 1.6016-10.801 4.4648-2.8633 2.8594-4.4766 6.7422-4.4766 10.793-0.003906 4.0469 1.6016 7.9336 4.4648 10.797 2.8594 2.8633 6.7422 4.4727 10.793 4.4766 4.0508 0 7.9336-1.6055 10.797-4.4688s4.4727-6.7461 4.4727-10.797c-0.007813-4.043-1.6172-7.918-4.4727-10.781-2.8594-2.8594-6.7344-4.4727-10.777-4.4844z"/>
+                                </g>
+                            </svg>      
+                        </a>              
+                    </section>
+                </div>
+            </section>
+
+            <section id="feedback">
+                <h2>Feedback for Friendface</h2>
+                <p>To send Friendface your comments and concerns, please fill and submit the form below. Required inputs are marked with a <span class="required">*</span></p>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="my-name">Full Name (First and Last) <span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+
+                    <label for="my-email">Email Address <span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+
+                    <label for="my-comments">Comments <span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                <h2>Additional Links</h2>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookies</a>
+            </section>
+            <p>Copyright &copy;2023 - GIT215 - Prof. Barnett</p>
+            <p>For Educational Purposes Only</p>
+        </footer>
+    </body>
+</html>
